@@ -12,11 +12,11 @@ class testCalc(unittest.TestCase):
         self.assertEqual(result, 9)
 
     def test_mul(self):
-        result = add(3, 3)
+        result = mul(3, 3)
         self.assertEqual(result, 9)
 
     def test_div(self):
-        result = add(10, 2)
+        result = div(10, 2)
         self.assertEqual(result, 5)
 
 if __name__=="__main__":
